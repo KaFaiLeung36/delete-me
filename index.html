@@ -1,6 +1,24 @@
 <html>
     <head>
+        <style>
+            div h1{ 
+                background-color: red;
+                color:green;
+                font-size: 60px;
+                width: 100%;
+            }
+            ul{
+                display:flex;
+                gap:50px;
+                border: 3px solid black;
+                background-color: blue;
+                color:white;
 
+            }
+            form{
+                border: px solid black;
+            }
+        </style>
     </head>
     <body>
         <h1>
@@ -27,12 +45,28 @@
         <img src="/pexels-binyaminmellish-106399.jpg" alt="house picture" width="100px">
         <a href="aboutme.html" >about me</a>
 
-        <div>
+        <div style="height: 1000px;">
             <h1>
                 Welcome to my web page!
             </h1>
             <p>this is my html page.</p>
         </div>
+
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" required><br>
+
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <input type="radio" id="subscribe" name="subscribe" value="yes">
+            <input type="data" id="data" name="data"><br>
+            <input type="submit" value="submit">
+        </form>
+
+
+        <h2 id="whatever"> hi i am here</h2>
+
         <table border="1" cellpadding="5" cellmargining="5">
             <tr>
                 <td>1</td>
